@@ -156,7 +156,7 @@ function formatTestResults(results, methodName, methodType) {
     );    
 
     const testResults = new TestResults();
-    const GUID = "d805050e-a0d8-49b0-afbd-46a486105170";  // Generate a unique GUID for each test case
+    const GUID = "218f52f6-d55f-477f-9c9e-a9c33b5d5df0";  // Generate a unique GUID for each test case
     testResults.testCaseResults[GUID] = testCaseResult;
     testResults.customData = 'Custom data goes here';  // Placeholder for custom data
 
